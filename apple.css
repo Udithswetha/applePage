@@ -1,0 +1,661 @@
+
+body{
+    margin:0;
+    width: 100%;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+   overflow-x: hidden;
+}
+
+/*  ---------------------------------                    menu bar           --------------------------------- */
+
+nav{
+    width: 100%;
+    height:30px;
+    line-height: 30px;
+    background-color: black;
+    margin-top: 0;
+    position: fixed;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+nav ul{
+    list-style: none;
+    padding-left:5px; 
+}
+
+nav li{
+    float: left;
+    padding: 0 30px 0 30px;
+    
+}
+
+.li-one{
+    padding-left: 160px;
+}
+
+nav a{
+    color: rgb(180, 175, 175);
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.pa{
+    filter: blur(0.85px);
+    filter: brightness(2px);
+}
+
+.pa:hover{
+    color: white;
+}
+
+/*       ---------------------------------  first iphn se        ---------------------------------*/
+
+.iphn-se{
+    text-decoration: none;
+    color:rgb(240, 236, 236);
+}
+
+#one{
+    background-color: rgb(20, 19, 19);
+    height:850px;
+    color: rgb(240, 236, 236);
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+    
+#one p:first-child{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.p-fst{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.a-fst{
+    font-size: 25px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.a-fst:hover{
+    text-decoration: underline;
+}
+#one p:last-child{
+    padding-top: 5px;
+}
+
+/*         ---------------------------------        iphn 11        ---------------------------------                 */
+
+.iphn-11{
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+}
+
+#two{
+    background-color: white;
+    height:720px;
+    color: rgb(20, 19, 19);
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+
+#two p:first-child{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.p-scnd{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.a-scnd{
+    font-size: 25px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.a-scnd:hover{
+    text-decoration: underline;
+}
+
+#two p:last-child{
+    padding-top: 5px;
+}
+
+/*       ---------------------------------         iphone 11 pro    ---------------------------------   */
+
+.iphn-11p{
+    text-decoration: none;
+    color:rgb(240, 236, 236);
+}
+
+#three{
+    background-color:black;
+    height:635px;
+    color: rgb(240, 236, 236);
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+    
+#three p:first-child{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.p-third{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.a-third{
+    font-size: 25px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.a-third:hover{
+    text-decoration: underline;
+}
+
+#three p:last-child{
+    padding-top: 5px;
+}
+
+/*       ---------------------------------         watch    ---------------------------------   */
+
+.side{
+    display:flex;
+}
+
+.watch{
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+    
+}
+
+#four{
+    background-color:rgb(248, 248, 248);
+    height:720px;
+    color: rgb(20, 19, 19);
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+
+#four p:first-child{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+#four p img{
+    filter:blur(0.1px);
+}
+
+.p-four{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
+    color: tomato;
+}
+
+.p-four2{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.a-four{
+    font-size: 25px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.a-scnd:four{
+    text-decoration: underline;
+}
+
+#four p:last-child{
+    padding-top: 5px;
+}
+
+/*       ---------------------------------        macbook   ---------------------------------   */
+
+.mac{
+    text-decoration: none;
+    color:rgb(240, 236, 236);
+}
+
+#five{
+    background-color: rgb(20, 19, 19);
+    height:720px;
+    color: rgb(240, 236, 236);
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+    
+#five p:first-child{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.p-five{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.a-five{
+    font-size: 25px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.a-five:hover{
+    text-decoration: underline;
+}
+
+#five p:last-child{
+    padding-top: 5px;
+}
+
+/*       ---------------------------------       ipad   ---------------------------------   */
+.ipad{
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+}
+
+#six{
+    background-color:white;
+    height:630px;
+    color: rgb(20, 19, 19);
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+
+#six p:first-child{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.p-six{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.a-six{
+    font-size: 25px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.a-six:hover{
+    text-decoration: underline;
+}
+
+#six p:last-child{
+    padding-top: 5px;
+}
+
+/*       ---------------------------------     airpod  ---------------------------------   */
+
+.apod{
+    text-decoration: none;
+    color:rgb(240, 236, 236);
+}
+
+#seven{
+    background-color:black;
+    height:630px;
+    color: rgb(240, 236, 236);
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+    
+#seven p:first-child{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.p-seven{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.a-seven{
+    font-size: 25px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.a-seven:hover{
+    text-decoration: underline;
+}
+
+#seven p:last-child{
+    padding-top: 5px;
+}
+
+/*       ---------------------------------     tv  ---------------------------------   */
+
+.tv{
+    text-decoration: none;
+}
+
+#eight{
+    background-color:black;
+    height:630px;
+    color: rgb(240, 236, 236);
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+
+#eight a{
+    text-decoration: none;
+}
+
+#eight p{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#eight p:hover{
+    text-decoration: underline;
+}
+
+/*       ---------------------------------     arcade     ---------------------------------   */
+
+.arcade{
+    text-decoration: none;
+}
+
+#nine{
+    background-color:black;
+    height:630px;
+    color: rgb(240, 236, 236);
+    width: 50%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+
+#nine a{
+    text-decoration: none;
+}
+
+#nine p{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#nine p:hover{
+    text-decoration: underline;
+}
+
+/*       ---------------------------------     footer    ---------------------------------   */
+
+.footer{
+    background-color:  rgb(240, 236, 236);
+    width: 100%;
+    height:600px; 
+    padding-left: 100px;
+}
+
+/*       ---------------------------------     subscription   ---------------------------------   */
+
+.subscription p{
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 15px;
+    color: rgb(87, 87, 87);
+    margin-right: 200px;
+}
+
+.subscription a{
+    text-decoration: none;
+    color: rgb(20, 19, 19);
+}
+
+.subscription a:hover{
+    text-decoration: underline;
+}
+
+.subscription:after{
+    content: " ";
+    display: block;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    margin-right: 200px;
+}
+
+/*       ---------------------------------   tables    ---------------------------------   */
+
+.info{
+    display: flex;
+    margin:10px;
+    padding-left: 20px;
+}
+
+.info table{
+    font-size: 13px;
+    text-align: left;
+    font-style: normal;
+    padding-right: 100px;
+    line-height: 25px;
+}
+
+.info table td{
+    color: rgb(87, 87, 87);
+}
+
+.info table tr{
+    color: rgb(20, 19, 19);
+}
+
+.info table a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+.info table a:hover{
+    text-decoration: underline;
+}
+
+/*       ---------------------------------   retailer    ---------------------------------   */
+
+.retail{
+    font-size: 13px;
+    color: rgb(87, 87, 87);
+}
+
+.retail a{
+    text-decoration: none;
+    color:dodgerblue;
+}
+
+.retail a:hover{
+    text-decoration: underline;
+}
+
+.retail:after{
+    content: " ";
+    display: block;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    margin-right: 200px;
+}
+
+/*       ---------------------------------   copyright    ---------------------------------   */
+
+.cpr{
+    font-size: 13px;
+    color: rgb(87, 87, 87);
+}
+
+.cpr-bar{
+    font-size: 13px;
+    color: rgb(87, 87, 87);
+}
+
+.cpr-bar a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+.cpr-bar a:hover{
+    text-decoration: underline;
+}
+
+.mac1{
+    text-decoration: none;
+    color:rgb(240, 236, 236);
+    height: 600px;
+}
+
+#macone{
+    background-color: rgb(20, 19, 19);
+    height: 753px;
+    color: rgb(240, 236, 236);
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+    
+#macone p:first-child{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.iphn{
+    text-decoration: none;
+    color:rgb(240, 236, 236);
+    height: 600px;
+}
+
+#ione{
+    background-color: rgb(0, 0, 0);
+    height: 753px;
+    color: rgb(240, 236, 236);
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+    
+#ione p:first-child{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+#wone{
+    background-color: rgb(0, 0, 0);
+    height: 800px;
+    color: rgb(240, 236, 236);
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+    
+#wone p:first-child{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+#tvone{
+    background-color: rgb(44,52,60);
+    height: 783px;
+    color: rgb(240, 236, 236);
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+    
+#tvone p:first-child{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+#musicone{
+    background-color: rgba(12,12,12,255);
+    height: 753px;
+    color: rgb(240, 236, 236);
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font-family: "SF pro display" Arial, Helvetica, sans-serif;
+}
+    
+#musicone p:first-child{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
